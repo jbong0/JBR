@@ -1,0 +1,215 @@
+
+
+
+body {
+  text-decoration: none;
+}
+.navbar{
+  background-image: url("/assets/imgs/bg.png");
+}
+.social-media{
+    width: 30px;
+    margin: 5px;
+    -webkit-filter: grayscale(1);
+}
+
+.card{
+  -webkit-filter: grayscale(1);
+}
+
+.card:hover{
+    -webkit-filter: none;
+  }
+  
+.social-media:hover {
+  transition: all 0.5s ease;
+  -webkit-filter: none;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+
+}
+
+.social-media:hover {
+  border-radius: 50%;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+
+}
+
+a{
+  color: #00A5BB;
+}
+
+
+.morph{
+  width: 250px;
+  height: 250px;
+  background:  #00A5BB;
+  margin: auto;
+
+}
+
+.morph {
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+         
+}
+ 
+.morph:hover {
+  border-radius: 50%;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+          
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    color: #00A5BB;
+    text-align: left;
+
+}
+
+small{
+  margin-right: 30px;
+}
+
+body {
+    padding-bottom: 80px;
+}
+
+label{
+  color:  #00A5BB;
+
+}
+
+textarea{
+  height: 300px;
+}
+
+.oswald{
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+
+.bg-secondary{
+  height: 300px;
+}
+
+
+#jbon{
+  float: left;
+}
+
+a{
+  color: white;
+}
+
+.navi{
+  font-size: 10px;
+  color: grey;
+}
+
+
+a:link {
+    color: #00A5BB;
+}
+
+a:visited {
+    color: #00A5BB;
+}
+
+a:hover {
+    color: #00A5BB;
+}
+
+a:active {
+    color: #00A5BB;
+}
+
+.grey{
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  font-size: 10px;
+  display: none;
+}
+.title{
+  background: none;
+}
+.opaBG{
+  background: rgba(0, 0, 0, 0.5);
+
+}
+
+/* Video Background */
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+@media screen  and (max-width: 992px){
+
+  small{
+    display: none;
+  }
+  .grey{
+    display: inline;
+  }
+  .hide{
+    display: none;
+  }
+  .footer{
+    display: none;
+  }
+  .jumbotron{
+    display: none;
+  }
+}
+
+
+
+
