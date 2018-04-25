@@ -12,7 +12,9 @@ body {
     margin: 5px;
     -webkit-filter: grayscale(1);
 }
-
+.show{
+  display: none;
+}
 .card{
   -webkit-filter: grayscale(1);
 }
@@ -101,7 +103,7 @@ textarea{
   height: 300px;
 }
 
-.oswald{
+.oswald, .body{
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
 }
@@ -170,7 +172,6 @@ a:active {
 .content {
   position: fixed;
   bottom: 0;
-  
   color: #f1f1f1;
   width: 100%;
   padding: 20px;
@@ -191,23 +192,37 @@ a:active {
   background: #ddd;
   color: black;
 }
+.carousel-item {
+  height: 90vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.btn{
+  border: none;
+}
+
 @media screen  and (max-width: 992px){
 
   small{
     display: none;
   }
-  .grey{
-    display: inline;
-  }
+
   .hide{
     display: none;
   }
-  .footer{
-    display: none;
+  .show{
+    display: unset;
   }
-  .jumbotron{
-    display: none;
+  .carousel-item {
+    height: 100px;
+    min-height: 200px;
   }
+  
 }
 
 
