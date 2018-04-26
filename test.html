@@ -24,174 +24,99 @@
 </head>
 
 <body>
-<!-- Navbar -->
-    <!-- <nav class="navbar navbar-expand-lg navbar-dark opaBG fixed-top">
-        <a class="navbar-brand text-white oswald" href="index.html">JBR</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon "></span>
-    </button>
-    <div class="collapse navbar-collapse " id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item show">
-                <span class="nav-link text-white text-center" data-toggle="modal" data-target="#bioModalCenter">About JBR</span>
-            </li>
-            <li class="nav-item show">
-                <span class="nav-link text-white text-center" data-toggle="modal" data-target="#contactModalCenter">Contact</span>
-            </li>
-            <li class="nav-item show">
-                    <span class="nav-link text-white text-center" data-toggle="modal" data-target="#projModalCenter">Portfolio</span>
-            </li>
-            <li class="nav-item show">
-                    <span class="nav-link text-white text-center" data-toggle="modal" data-target="#linksModalCenter">Links</span>
-            </li>
-        </ul>
-    </div>
-    </nav> -->
-<!-- end navbar -->
-
-            <!-- Projects -->
-
-                    <h1 id="projects" data-toggle="modal" data-target="#projModalCenter" class="hide">Portfolio</h1>
-                </div>
-            </div>
-
-<!-- projects modal -->
-    <div class="modal fade" id="projModalCenter" tabindex="-1" role="dialog" aria-labelledby="#projModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-                <div class="modal-content opaBG text-white p-2">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="projModalLongTitle">Projects by JBR</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="row">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+        <h1 id="projects" data-toggle="modal" data-target="#projModalCenter" class="hide">Portfolio</h1>
+        <div class="carousel-item" ata-toggle="modal" data-target="#projModalCenter" style="background-image: url('assets/imgs/sfskycopy.jpg')"></div>
+        <div class="modal fade" id="projModalCenter" tabindex="-1" role="dialog" aria-labelledby="#projModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                        <div class="modal-content opaBG text-white p-2">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="projModalLongTitle">Projects by JBR</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-4">
+                                        <span class="imageCase">
+                                        <div class="card bg-dark mb-3">
+                                            <a href="https://jbong0.github.io/Hangman-Game/" target="_blank">
+                                            <img class="card-img-top morph img-fluid" src="assets/imgs/01.jpg" alt="Kawaii Fruit"></a>
+                                            <span class="middle">
+                                                <div class="text">Fruity Words</div>
+                                            </span>
+                                        </span>
+                                        </div>
+                                    </div>
+                        
+                                    <div class="col-md-6 col-lg-4">
+                                        <span class="imageCase">
+                                        <div class="card bg-dark mb-3">
+                                            <a href="https://jbong0.github.io/CrystalCollector/" target="_blank">
+                                            <img class="card-img-top morph img-fluid" src="assets/imgs/02.jpg" alt="Crystals"></a>
+                                            <span class="middle">
+                                                    <div class="text">Crystal Collector</div>
+                                                </span>
+                                        </span>
+                                        </div>
+                                    </div>
+                        
+                                    <div class="col-md-6 col-lg-4">
+                                        <span class="imageCase">
+                                        <div class="card  bg-dark mb-3">
+                                                <a href="https://jbong0.github.io/TriviaGame/">
+                                            <img class="card-img-top morph img-fluid" src="assets/imgs/03.jpg" alt="Jeopardy"></a>
+                                            <span class="middle">
+                                                    <div class="text">Jeopardy Trivia</div>
+                                                </span>
+                                        </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4">
+                                        <span class="imageCase">
+                                        <div class="card  bg-dark ">
+                                            <a href ="https://jbong0.github.io/Gif-Tastic/"><img class="card-img-top morph img-fluid" src="assets/imgs/04.jpg" alt="Raining Food"></a>
+                                            <span class="middle">
+                                                    <div class="text">Yummy Gif-Tastic</div>
+                                                </span>
+                                        </span>
+                                        </div>
+                                    </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <span class="imageCase">
+                                    <div class="card  bg-dark mb-3">
+                                        <a href ="https://jbong0.github.io/BART-Train-Schedule/"><img class="card-img-top morph img-fluid" src="assets/imgs/05.jpg" alt="Bart Train"></a>
+                                        <span class="middle">
+                                                <div class="text">Bart Train Scheduler</div>
+                                            </span>
+                                    </span>
+                                    </div>
+                                </div>
                             <div class="col-md-6 col-lg-4">
                                 <span class="imageCase">
                                 <div class="card bg-dark mb-3">
-                                    <a href="https://jbong0.github.io/Hangman-Game/" target="_blank">
-                                    <img class="card-img-top morph img-fluid" src="assets/imgs/01.jpg" alt="Kawaii Fruit"></a>
+                                    <a href ="https://bud-buddy.github.io/BudBuddy/"><img class="card-img-top morph img-fluid" src="assets/imgs/06.jpg" alt="Bud Buddy"></a>
                                     <span class="middle">
-                                        <div class="text">Fruity Words</div>
-                                    </span>
-                                </span>
-                                </div>
-                            </div>
-                
-                            <div class="col-md-6 col-lg-4">
-                                <span class="imageCase">
-                                <div class="card bg-dark mb-3">
-                                    <a href="https://jbong0.github.io/CrystalCollector/" target="_blank">
-                                    <img class="card-img-top morph img-fluid" src="assets/imgs/02.jpg" alt="Crystals"></a>
-                                    <span class="middle">
-                                            <div class="text">Crystal Collector</div>
+                                            <div class="text">Bud Buddy</div>
                                         </span>
                                 </span>
                                 </div>
-                            </div>
-                
-                            <div class="col-md-6 col-lg-4">
-                                <span class="imageCase">
-                                <div class="card  bg-dark mb-3">
-                                        <a href="https://jbong0.github.io/TriviaGame/">
-                                    <img class="card-img-top morph img-fluid" src="assets/imgs/03.jpg" alt="Jeopardy"></a>
-                                    <span class="middle">
-                                            <div class="text">Jeopardy Trivia</div>
-                                        </span>
-                                </span>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4">
-                                <span class="imageCase">
-                                <div class="card  bg-dark ">
-                                    <a href ="https://jbong0.github.io/Gif-Tastic/"><img class="card-img-top morph img-fluid" src="assets/imgs/04.jpg" alt="Raining Food"></a>
-                                    <span class="middle">
-                                            <div class="text">Yummy Gif-Tastic</div>
-                                        </span>
-                                </span>
-                                </div>
-                            </div>
-                        <div class="col-md-6 col-lg-4">
-                            <span class="imageCase">
-                            <div class="card  bg-dark mb-3">
-                                <a href ="https://jbong0.github.io/BART-Train-Schedule/"><img class="card-img-top morph img-fluid" src="assets/imgs/05.jpg" alt="Bart Train"></a>
-                                <span class="middle">
-                                        <div class="text">Bart Train Scheduler</div>
-                                    </span>
-                            </span>
                             </div>
                         </div>
-                    <div class="col-md-6 col-lg-4">
-                        <span class="imageCase">
-                        <div class="card bg-dark mb-3">
-                            <a href ="https://bud-buddy.github.io/BudBuddy/"><img class="card-img-top morph img-fluid" src="assets/imgs/06.jpg" alt="Bud Buddy"></a>
-                            <span class="middle">
-                                    <div class="text">Bud Buddy</div>
-                                </span>
-                        </span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-<!-- end projects modal -->
+        <!-- end projects modal -->
 
-<!-- links modal -->
-    <div class="modal fade" id="linksModalCenter" tabindex="-1" role="dialog" aria-labelledby="linksModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered ">
-                <div class="modal-content opaBG text-white p-2">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="linksModalLongTitle">JBR Links</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="row">
-                            <div class="col-md-6 col-lg-4">
-                                <span class="imageCase">
-                                <div class="card bg-dark mb-3">
-                                    <a href="https://www.linkedin.com/in/jessiebon/" target="_blank">
-                                    <img class="card-img-top morph img-fluid" src="assets/imgs/linkedinlogo.png" alt="LinkedIn Logo"></a>
-                                    <span class="middle">
-                                        <div class="text">LinkedIn</div>
-                                    </span>
-                                </span>
-                                </div>
-                            </div>
-                
-                            <div class="col-md-6 col-lg-4">
-                                <span class="imageCase">
-                                <div class="card bg-dark mb-3">
-                                    <a href="https://github.com/jbong0" target="_blank">
-                                    <img class="card-img-top morph img-fluid" src="assets/imgs/githublogo.png" alt="GitHub Logo"></a>
-                                    <span class="middle">
-                                            <div class="text">GitHub</div>
-                                        </span>
-                                </span>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4">
-                                <span class="imageCase">
-                                <div class="card bg-dark mb-3">
-                                    <a href="https://stackoverflow.com/users/9216731/jessiebon" target="_blank">
-                                    <img class="card-img-top morph img-fluid" src="assets/imgs/overflowlogo.png" alt="Stack Logo"></a>
-                                    <span class="middle">
-                                            <div class="text">Stack Overflow</div>
-                                        </span>
-                                </span>
-                                </div>
-                            </div>
-                
-                </div>
-            </div>
-    </div>
-
-<!-- end links modal -->
 
 </body>
 </html>

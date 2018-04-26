@@ -3,12 +3,9 @@ body {
   background-color: darkslategray; 
   margin-bottom: 0px;
   font-family: 'Open Sans Condensed', sans-serif;
+  
 }
 
-.jbon{
-  height: 150px;
-  border: none;
-}
 
 p{
   text-indent: 50px;
@@ -121,7 +118,7 @@ textarea{
 }
 
 
-#jbon{
+.jbon{
   float: left;
 }
 
@@ -166,7 +163,9 @@ a:active {
 
 }
 
-
+.card-img-top{
+  width: 100%;
+}
 
 /* Video Background */
 /* Style the video: 100% width and height to cover the entire window */
