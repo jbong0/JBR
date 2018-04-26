@@ -259,9 +259,10 @@ padding: 20px 32px;
 font-family: 'Open Sans Condensed', sans-serif;
 }
 
+
 @media screen  and (max-width: 992px){
 
-  small{
+  small, .hide{
     display: none;
   }
 
@@ -271,10 +272,14 @@ font-family: 'Open Sans Condensed', sans-serif;
   .show{
     display: unset;
   }
-  .carousel-item {
-    height: 100px;
-    min-height: 200px;
+
+  body{
+    background:none;
   }
+  
+.morph{
+  width: 100%;
+}
   
 }
 

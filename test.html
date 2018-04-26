@@ -25,7 +25,7 @@
 
 <body>
 <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark opaBG fixed-top">
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark opaBG fixed-top">
         <a class="navbar-brand text-white oswald" href="index.html">JBR</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon "></span>
@@ -46,122 +46,17 @@
             </li>
         </ul>
     </div>
-    </nav>
+    </nav> -->
 <!-- end navbar -->
 
-<!-- main content -->
-<!-- carousel slideshow -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-            <!-- Bio -->
-            <div class="carousel-item active" style="background-image: url('assets/imgs/bblights.jpg')">
-                <div class="carousel-caption d-none d-md-block mb-5">
-                    <h1 id="about" data-toggle="modal" data-target="#bioModalCenter" class="hide">About Me</h1>
-                </div>
-                
-            </div>
             <!-- Projects -->
-            <div class="carousel-item" style="background-image: url('assets/imgs/sfsky.jpg')">
-                <div class="carousel-caption d-none d-md-block mb-5">
+
                     <h1 id="projects" data-toggle="modal" data-target="#projModalCenter" class="hide">Portfolio</h1>
                 </div>
             </div>
-            <!-- Links -->
-            <div class="carousel-item" style="background-image: url('assets/imgs/transAm.jpg')">
-                <div class="carousel-caption d-none d-md-block mb-5">
-                <span id="linksHolder"></span>
-                <h1 id="profLinks" data-toggle="modal" data-target="#linksModalCenter" class="hide">Links</h1>
-                </div>
-            </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </div>
-
-<!-- end slideshow -->
-<!-- end main content -->
-
-<!-- footer -->
-    <div class="footer opaBG" id="footer">
-        <div class="col-md my-3 text-white text-md-right">
-            <small data-toggle="modal" data-target="#contactModalCenter" class="hide">Contact</small>
-            <small> &copy; 2017 Jessie Ramirez </small>
-        </div>
-    </div>
-<!-- end footer -->
-
-
-<!-- Modals -->
-
-<!-- contact modal -->
-<div class="modal fade" id="contactModalCenter" tabindex="-1" role="dialog" aria-labelledby="contactModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content opaBG text-white">
-            <div class="modal-header">
-              <h5 class="modal-title" id="contactModalLongTitle">Contact JBR</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-                <div class="container">
-                    <div class="modSubj text-left my-1">Name:</div>
-                        <input type="text" class="form-control" id="name" placeholder="John Smith">
-                    <div class="modSubj text-left my-1"> E-mail Address: </div>
-                        <input type="text" class="form-control" id="email" placeholder="JohnSmith@gmail.com">
-                    <div class="modSubj text-left my-1">Message: </div>
-                    <textarea class="form-control" id="message-text" placeholder="Write a message here."></textarea>
-                </div>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-secondary" id="sendMessage">Send Message</button>
-            </div>
-          </div>
-        </div>
-      </div>
-<!-- end contact modal -->
-
-<!-- about me modal -->
-<div class="modal fade" id="bioModalCenter" tabindex="-1" role="dialog" aria-labelledby="bioModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered ">
-        <div class="modal-content opaBG text-white p-2">
-            <div class="modal-header">
-                <h5 class="modal-title" id="bioModalLongTitle">About Jessie</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="rounded float-left" id="bioImg" > <img src="assets/imgs/jbongo.jpg" class="show img-fluid m-5" id="jbon" alt="Photo of Jessie Ramirez">
-                    <div class="rounded float-left" id="bioImg" > <img src="assets/imgs/jbongo.jpg" class="img-fluid hide m-4" id="jbon" alt="Photo of Jessie Ramirez">
-                <p class="lead">San Francisco based Front-End Developer with Full-Stack Development experience. Persistently striving for excellence. Passionate about learning, organization, 
-                    and showcasing excellent work. Worked in various settings and have dealt with many different types of people. Past employers have promoted 
-                    me rapidly due to reliability, hard work and dedication. Ability to adjust to new and challenging environments. For many years, I have been fascinated with Web Development. 
-                    Curiosity in the field has lead me to teach myself the basics. Mastering these skills and languages have allowed me to utilize my knowledge to help others. 
-                    I believe that a in order to become a great developer, a desire for learning is necessary. Technology is constantly and rapidly evolving and my goal is to progress with the industry.</p>
-                 </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- end about me modal -->
 
 <!-- projects modal -->
-<!-- projects modal -->
-<div class="modal fade" id="projModalCenter" tabindex="-1" role="dialog" aria-labelledby="#projModalCenterTitle" aria-hidden="true">
+    <div class="modal fade" id="projModalCenter" tabindex="-1" role="dialog" aria-labelledby="#projModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-lg">
                 <div class="modal-content opaBG text-white p-2">
                     <div class="modal-header">
@@ -244,7 +139,6 @@
             </div>
         </div>
 <!-- end projects modal -->
-
 
 <!-- links modal -->
     <div class="modal fade" id="linksModalCenter" tabindex="-1" role="dialog" aria-labelledby="linksModalCenterTitle" aria-hidden="true">
