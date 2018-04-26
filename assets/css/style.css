@@ -3,9 +3,7 @@ body {
   background-color: darkslategray; 
   margin-bottom: 0px;
   font-family: 'Open Sans Condensed', sans-serif;
-  
 }
-
 
 p{
   text-indent: 50px;
@@ -167,36 +165,6 @@ a:active {
   width: 100%;
 }
 
-/* Video Background */
-/* Style the video: 100% width and height to cover the entire window */
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-}
-
-/* Add some content at the bottom of the video/page */
-.content {
-  position: fixed;
-  bottom: 0;
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Style the button used to pause/play the video */
-#myBtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
-}
-
 #myBtn:hover {
   background: #ddd;
   color: black;
@@ -222,40 +190,40 @@ a:active {
 }
 
 .image {
-opacity: 1;
-display: block;
-width: 100%;
-height: auto;
-transition: .5s ease;
-backface-visibility: hidden;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
 
 .middle {
-transition: .5s ease;
-opacity: 0;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
--ms-transform: translate(-50%, -50%);
-text-align: center;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .imageCase:hover .image {
-opacity: 0.3;
+  opacity: 0.3;
 }
 
 .imageCase:hover .middle {
-opacity: 1;
+  opacity: 1;
 }
 
 .text {
-background-color: #00A5BB;
-color: white;
-width: 225px;
-font-size: 16px;
-padding: 20px 32px;
-font-family: 'Open Sans Condensed', sans-serif;
+  background-color: #00A5BB;
+  color: white;
+  width: 225px;
+  font-size: 16px;
+  padding: 20px 32px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 
